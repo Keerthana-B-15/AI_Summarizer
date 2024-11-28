@@ -2,6 +2,10 @@ import streamlit as st
 from transformers import pipeline
 from datasets import load_dataset
 import logging
+from transformers import pipeline
+
+summarizer = pipeline("summarization", model="facebook/bart-large-xsum")
+
 
 # Set up logging for debugging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
