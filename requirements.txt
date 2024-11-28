@@ -60,3 +60,6 @@ urllib3==2.2.3
 watchdog==6.0.0
 xxhash==3.5.0
 yarl==1.18.0
+streamlit==1.19.0
+transformers==4.33.0
+torch==2.1.0
