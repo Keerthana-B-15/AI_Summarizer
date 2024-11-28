@@ -1,5 +1,5 @@
-streamlit==1.24.0
-transformers==4.35.0
-datasets==2.14.0
-torch==2.0.0
-logging==0.5.1.2  # Only needed if you're using it as a standalone package. This is usually built into Python.
+streamlit==1.19.0
+transformers==4.33.0
+torch==2.1.0
+datasets==2.13.0
+logging==0.5.1.2  # Optional; not required for standard Python logging
