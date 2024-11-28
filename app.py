@@ -4,7 +4,9 @@ from datasets import load_dataset
 import logging
 from transformers import pipeline
 
-summarizer = pipeline("summarization", model="facebook/bart-large-xsum")
+# Using a smaller, more lightweight model
+summarizer = pipeline("summarization", model="facebook/bart-base")
+
 
 
 # Set up logging for debugging
