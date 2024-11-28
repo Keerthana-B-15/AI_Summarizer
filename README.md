@@ -108,9 +108,9 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For questions or feedback, please contact:
-- **Email**: [keerthanab610@gmail.com]
-- **GitHub**: [(https://github.com/Keerthana-B-15/)]
-- **LinkedIn**: [(https://www.linkedin.com/in/keerthana-b-904b79256/)]
+- **Email**: keerthanab610@gmail.com
+- **GitHub**: https://github.com/Keerthana-B-15/
+- **LinkedIn**: https://www.linkedin.com/in/keerthana-b-904b79256/
 
 
 **Try the AI Document Summarizer and save time summarizing lengthy texts!**
