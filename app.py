@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit as st
 from transformers import pipeline
 from datasets import load_dataset
 from sumy.parsers.plaintext import PlaintextParser
@@ -13,6 +14,12 @@ import os
 from collections import Counter
 import networkx as nx
 from datetime import datetime
+import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
+
+x = st.slider('Select a value')
+st.write(x, 'squared is', x * x)
 
 # Ensure required NLTK resources are downloaded
 nltk.download('punkt')
